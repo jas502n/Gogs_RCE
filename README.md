@@ -104,6 +104,7 @@ root账号
 ```
 静态文件根目录    /app/gogs
 ```
+![](./path.png)
 
 shell 脚本内容：
 
@@ -111,8 +112,8 @@ shell 脚本内容：
 
 ![](./git_bash.png)
 
-网站路径：
+网站回显路径：
 
 `https://127.0.0.1:3000/js/1.js`
 
-
+![](./passwd.png)

@@ -81,21 +81,35 @@ root@kali:~/go/demo#
 
 ## 0x04 页面刷新，变成root管理员账号
 ![](./cookie.png)
+
+修改以后
+
 ![](./cookie-admin.png)
 
-## 0x05 仓库-页面设置，管理Git钩子， 钩子名称 pre-receive 
+root账号
+
+![](./root.png)
+
+## 0x05 仓库设置，管理Git钩子， 钩子名称 pre-receive 
 
 当服务器为linux平台时，直接写shell脚本，执行命令。
 
 命令触发在仓库上传新文件后。
 
+
 ## 0x06 命令回显-管理面板-应用配置管理-静态文件根目录
 
-通过静态文件根目录 得到绝对路径：例如 /home/git/gogs
+通过静态文件根目录 得到绝对路径：
+例如 
+```
+静态文件根目录    /app/gogs
+```
 
 shell 脚本内容：
 
-`cat /etc/passwd > /home/git/gogs/public/js/1.js`
+`cat /etc/passwd > /app/gogs/public/js/1.js`
+
+![](./git_bash.png)
 
 网站路径：
 

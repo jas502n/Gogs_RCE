@@ -117,3 +117,12 @@ shell 脚本内容：
 `https://127.0.0.1:3000/js/1.js`
 
 ![](./passwd.png)
+
+
+## 参考链接：
+
+`Cannot execute custom hooks on Windows #4255 `
+
+https://github.com/gogs/gogs/issues/4255
+
+https://github.com/vulhub/vulhub/tree/master/gogs/CVE-2018-18925

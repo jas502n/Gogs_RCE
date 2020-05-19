@@ -3,6 +3,8 @@
 
 ## 0x01 前台注册普通账号
 
+![](./test.jpg)
+
 ## 0x02 go 编译伪造管理员session
 
 `go run main.go`
@@ -43,7 +45,7 @@ func main() {
 }
 
 ```
-
+![](./data.png)
 会在当前目录生成data文件
 
 ```
@@ -65,14 +67,21 @@ root@kali:~/go/demo#
 
 ## 0x03 普通用户发布新版本
 
-设置cookie字段 i_like_gogits 为 新版本文件路径，拼接前2个字母
+![](./new_release.png)
+
+附件：
+`http://10.20.24.189:18080/attachments/c58bf501-7163-44a8-b77d-79c8396609bb`
+
+设置cookie字段 i_like_gogits 为 新版本 文件路径，拼接前2个字母
 例如：
 
-`/attachments/d734207b-17fb-4b37-b10d-6f5ce70524c4`
+`attachments/c58bf501-7163-44a8-b77d-79c8396609bb`
 
-`i_like_gogits=../attachments/1/a/1ad4fa98-46b8-4205-a6ae-e2c89e4037e7`
+`i_like_gogits=../attachments/c/5/c58bf501-7163-44a8-b77d-79c8396609bb`
 
 ## 0x04 页面刷新，变成root管理员账号
+![](./cookie.png)
+![](./cookie-admin.png)
 
 ## 0x05 仓库-页面设置，管理Git钩子， 钩子名称 pre-receive 
 
